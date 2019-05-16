@@ -10,7 +10,8 @@ exports[`renders the ThumbnailList component correctly 1`] = `
   >
     <img
       alt="test-thumbnail1"
-      className="image"
+      className="root loading"
+      onLoad={[Function]}
       src="/media/catalog/product/thumbnail1.png?auto=webp&format=pjpg&width=240"
     />
   </button>
@@ -20,7 +21,8 @@ exports[`renders the ThumbnailList component correctly 1`] = `
   >
     <img
       alt="test-thumbnail2"
-      className="image"
+      className="root loading"
+      onLoad={[Function]}
       src="/media/catalog/product/thumbnail2.png?auto=webp&format=pjpg&width=240"
     />
   </button>
